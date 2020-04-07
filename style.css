@@ -1,0 +1,81 @@
+.container {
+  font-family: 'Open Sans', sans-serif;
+  width:600px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 180px;
+background-color:#3cb878;
+  text-align:center;
+  padding-top:20px;
+  color:white;
+  padding-bottom:5px;
+  box-shadow:0px 0px 3px 2px gray;
+ 
+}
+.card-holder {
+  display: flex;
+  justify-content:space-between;
+}
+.newsletter-form #email {
+  display: block;
+  width:100%;
+  border:solid thin #cfcfcf;
+  height:30px;
+  padding-left:3px;
+  border-radius:3px;
+  box-sizing: border-box;
+  margin-bottom:5px;
+}
+.newsletter-form button {
+  display: block;
+  width:100%;
+  background-color:#3cb878;
+  border:0;
+  color:white;
+  height:30px;
+  margin:0px;
+}
+.newsletter-form {
+  color:grey;
+  margin-top:40px;
+}
+
+#terms {
+  position: relative;
+  top:1px;
+}
+.newsletter-form {
+  border:solid thin #cfcfcf;
+  padding: 10px;
+  border-radius:3px;
+  position: relative;
+}
+.closing-x {
+  position:absolute;
+  top: 0px;
+  right:5px;
+}
+.newsletter-form h3{
+  margin-top:0px;
+}
+#question-circle{
+  height:100px;
+  width:100px;
+  background-color:#3cb878;
+  border-radius:50%;
+  color:white;
+  font-size:70px;
+  text-align:center;
+  position:fixed;
+  bottom:10px;
+  Right:10px;
+}
+.closing-x button {
+  background-color: white;
+  color: black;
+  cursor:pointer;
+}
